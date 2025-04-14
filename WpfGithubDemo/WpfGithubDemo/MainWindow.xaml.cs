@@ -16,8 +16,11 @@ namespace WpfGithubDemo;
 /// </summary>
 public partial class MainWindow : Window
 {
+    List<string> Autok=new List<string>() {"Skoda","Fiat","Skoda","Ford","Ford","Suzuki","Toyota","Toyota" };
     public MainWindow()
     {
         InitializeComponent();
+        var autokUnique = Autok.Distinct();
+        comboList.ItemsSource = autokUnique;
     }
 }
