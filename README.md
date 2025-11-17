@@ -1,1 +1,1 @@
-# 13a github gyakorlás
+# 13a github gyakorlás kovacsrud2
